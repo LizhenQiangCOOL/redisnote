@@ -3,23 +3,27 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Redis 笔记"
+  text: "一本正经的学习资料"
+  tagline: copy from 《Redis 核心技术与实战》
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开篇
+      link: /begin/01.md
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 基础篇
+      link: /basic/01.md
+    - theme: alt
+      text: 实践篇
+      link: /
+    - theme: alt
+      text: 未来篇
+      link: /
+    - theme: alt
+      text: 加餐篇
+      link: /
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Feature
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
