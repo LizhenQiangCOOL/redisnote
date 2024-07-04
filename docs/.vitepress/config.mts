@@ -7,10 +7,12 @@ export default defineConfig({
   // 主题
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+
     nav: [
       { text: '主页', link: '/' }
     ],
 
+    // 左侧导航栏
     sidebar: [
       {
         text: '开篇',
@@ -20,6 +22,7 @@ export default defineConfig({
         ]
       },{
         text: '基础篇',
+        collapsed: true,
         items: [
           { text: '01 | 基本架构：一个键值数据库包含什么？', link: '/basic/01.md' },
           { text: '02 | 数据结构：快速的Redis有哪些慢操作？', link: '/basic/02.md' },
@@ -30,15 +33,18 @@ export default defineConfig({
       }
     ],
 
+    // 项目github链接
     socialLinks: [
       { icon: 'github', link: 'https://github.com/LizhenQiangCOOL/redisnote' }
     ],
 
+    // 本地搜索
     search: {
       provider: 'local'
     },
+    // 页面编辑
     editLink: {
-      pattern: 'https://github.com/LizhenQiangCOOL/redisnote/docs/:path',
+      pattern: 'https://github.com/LizhenQiangCOOL/redisnote/tree/main/docs/:path',
       text: 'Edit this page on GitHub'
     }
   },
