@@ -5,7 +5,6 @@ layout: home
 hero:
   name: "Redis 笔记"
   text: "一本正经的学习资料"
-  tagline: copy from 《Redis 核心技术与实战》
   actions:
     - theme: brand
       text: 开篇
@@ -25,5 +24,5 @@ hero:
 
 features:
   - title: Feature
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Feature is feature，Feature is feature
 ---
